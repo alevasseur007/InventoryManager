@@ -26,3 +26,113 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# =========================
+# Visual Studio / VS Code / Rider
+# =========================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+*.sln.iml
+
+# =========================
+# Build results
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# MSBuild / project artifacts
+*.rsuser
+*.cache
+*.tmp
+*.temp
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/repositories.config
+.nuget/
+.nuget/packages/
+# (If you use packages.lock.json and want it tracked, do nothing; it's usually committed.)
+
+# =========================
+# Test results / coverage
+# =========================
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coveragereport/
+*.lcov
+*.opencover.xml
+
+# =========================
+# dotnet tools / local tools
+# =========================
+.dotnet/
+# tool-manifest is usually committed:
+!.config/dotnet-tools.json
+
+# =========================
+# Publish / artifacts
+# =========================
+**/publish/
+**/app.publish/
+artifacts/
+
+# =========================
+# ASP.NET / IIS
+# =========================
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+Properties/PublishProfiles/
+# If you want to commit pubxml, comment the 2 lines above.
+
+# =========================
+# User secrets (keep OUT of git)
+# =========================
+secrets.json
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Local settings
+# =========================
+appsettings.Development.json
+appsettings.Local.json
